@@ -9,7 +9,6 @@ document.addEventListener("mousemove", function (dets) {
 });
 
 gsap.to("#nav", {
-  backgroundColor: "rgba(0, 0, 0, 0.715)",
   height: "60px",
   duration: 1,
   scrollTrigger: {
@@ -23,7 +22,6 @@ gsap.to("#main", {
   scrollTrigger: {
     trigger: "#main",
     scroller: "body",
-    markers: true,
     start: "top -10%",
     end: "top -70%",
     scrub: 2,
